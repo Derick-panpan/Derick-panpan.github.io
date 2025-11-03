@@ -1,0 +1,50 @@
+
+/* Declaração da fonte Windows 95 */
+@font-face {
+    font-family: 'Win95';
+    src: url('../fonts/w95font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Win95';
+    src: url('../fonts/w95font-bold.woff') format('woff'),
+         url('../fonts/w95font-bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    flex: 1;
+    padding: 16px;
+    max-width: 800px;
+    margin-top: 20px;
+}
+/* caixa central */
+.container-box {
+  background: rgba(100, 10, 10, 0.7);
+  width: 960px;
+  height: 640px;
+  border-radius:0px;
+  text-align: center;
+  line-height: 250px;
+  color: white;
+  margin: 0 auto;
+}
+
+.fieldset-box {
+  width: 960px;
+  height: 640px;
+  border-radius:0px;
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 9999;
+}

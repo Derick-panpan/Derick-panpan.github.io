@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Minha Página Web</title>
+  <link rel="stylesheet" href="https://unpkg.com/98.css">
+  <link rel="stylesheet" href="Styles/style.css">
+  <link rel="stylesheet" href="docs.css">
+  <link rel="stylesheet" href="Styles/animations.css">
+  <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Minha Página Web">
+    <style type="text/css" id="operaUserStyle">
+    </style>
+</head>
+<body ontouchstart>
+<aside>
+<ul class="tree-view">
+  <li>Table of Contents</li>
+  <li>Começo</li>
+  <li>
+    Placeholder
+    <ul>
+      <li>Upgrade1</li>
+      <li>upgrade2</li>
+      <li>upgrade3</li>
+    </ul>
+  </li>
+  <li>
+    <details open>
+      <summary>Segredos bem secretos (não procurar!)</summary>
+      <ul>
+        <li>Avoid at all costs</li>
+        <li>
+          <details>
+            <summary>Unless</summary>
+            <ul>
+              <li>Avoid</li>
+              <li>
+                <details>
+                  <summary>At</summary>
+                  <ul>
+                    <li>Avoid</li>
+                    <li>At</li>
+                    <li>All</li>
+                    <li>Cost</li>
+                  </ul>
+                </details>
+              </li>
+              <li>All</li>
+              <li>Cost</li>
+            </ul>
+          </details>
+        </li>
+      </ul>
+    </details>
+  </li>
+  <li>HTML</li>
+  <li>Special Thanks</li>
+</ul>
+</aside>
+<main>
+<div class="title-bar top-bar">
+  <div class="title-bar-text">⟢ Blog Leirbag ⋆˚࿔</div>
+  <div class="title-bar-controls">
+    <button aria-label="Help"></button>
+    <button aria-label="Close"></button>
+  </div>
+</div>
+  <h1 style="font-family: 'Win95', sans-serif;">Bonjour ^^</h1>
+  <hr style="display: flex; width: 100;">
+  <p>Este é um blog para que eu possa aprender a programar e também para me expressar.</p>
+  <div class="window" style="margin: 32px; width: 250px">
+    <div class="title-bar">
+    <div class="title-bar-text">
+      Click me!
+    </div>
+    <div class="title-bar-controls">
+      <button aria-label="Minimize"></button>
+      <button aria-label="Maximize"></button>
+      <button aria-label="Close"></button>
+    </div>
+    </div>
+    <div class="window-body">
+    <p id="message">Click for money!</p>
+    <p style="margin-bottom: 16px;">Moedas: <span id="coinCount" style="font-weight: bold;">0</span> 💰</p>
+    <section class="field-row" style="justify-content: flex-end">
+      <button id="okButton">OK</button>
+      <button>Cancel</button>
+    </section>
+    </div>
+  </div>
+
+  <div id="upgradeWindow" class="window" style="margin: 32px; width: 300px; display: none;">
+    <div class="title-bar">
+      <div class="title-bar-text">
+        ⭐ Upgrade Disponível! ⭐
+      </div>
+      <div class="title-bar-controls">
+        <button aria-label="Minimize"></button>
+        <button aria-label="Maximize"></button>
+        <button aria-label="Close"></button>
+      </div>
+    </div>
+    <div class="window-body">
+      <p>Parabéns! Você desbloqueou o primeiro upgrade!</p>
+      <div class="status-bar" style="margin: 8px 0;">
+        <p class="status-bar-field">Moedas necessárias: 10 💰</p>
+        <p class="status-bar-field">Status: Desbloqueado ✨</p>
+      </div>
+      <p style="margin-bottom: 16px;">Clique no botão dourado para ativar seu poder especial!</p>
+      <section class="field-row" style="justify-content: center">
+        <button id="upgradeButton" style="background: linear-gradient(to bottom right, #ffd700, #ffb347); font-weight: bold; padding: 10px 20px;">
+          ATIVAR PODER ✨
+        </button>
+      </section>
+    </div>
+  </div>
+</main>
+</body>
+</html>

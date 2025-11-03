@@ -1,0 +1,30 @@
+
+/* Animação da linha horizontal */
+@keyframes stripe-animation {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 140px 0;
+    }
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background: repeating-linear-gradient(
+        to right,
+        #ff0000 0px,
+        #ff7f00 20px,
+        #ffff00 40px,
+        #00ff00 60px,
+        #0000ff 80px,
+        #4b0082 100px,
+        #8b00ff 120px,
+        #ff0000 140px
+    );
+    background-size: 140px 100%;
+    animation: stripe-animation 16s linear infinite;
+    margin: 10px 0;
+    opacity: 1;
+}
